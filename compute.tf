@@ -3,7 +3,7 @@ locals {
   ip_cidr_range          = "192.168.0.0/16"
   ip_cidr_range_secondry = "10.0.0.0/16"
   region                 = "us-central1"
-  range_name             = "network-range"
+  range_name             = "network-range-dps"
   bool                   = "false"
 }
 provider "google" {
